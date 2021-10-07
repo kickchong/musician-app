@@ -11,6 +11,7 @@ const port = process.env.PORT || 3001;
 // include routes
 app.use('/musician', musicianRoutes);
 
+
 app.use(express.static('public'));
 
 // Index route
